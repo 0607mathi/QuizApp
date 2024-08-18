@@ -5,7 +5,7 @@ function App() {
   const [setScoreVisible,setSetScoreVisible]=useState(false)
   const [currentQuestion,setCurrentQuestion]=useState(0)
   const [correctanswercount,setCorrectAnswerCount]=useState(0)
-  const [timer,setTimer]=useState(60)
+  const [timer,setTimer]=useState(15)
   
   function Valid(option){
       if(option===questions[currentQuestion].answer){
@@ -13,7 +13,7 @@ function App() {
       }
       if(currentQuestion<questions.length-1){
         setCurrentQuestion((prevquiz)=>prevquiz+1)
-        setTimer(60)
+        setTimer(15)
       }
       else {
         setSetScoreVisible(true)
@@ -31,7 +31,7 @@ function App() {
         clearInterval(interval)
         if(currentQuestion<questions.length-1){
           setCurrentQuestion((prevquiz)=>prevquiz+1)
-          setTimer(60)
+          setTimer(15)
         }
         else {
           setSetScoreVisible(true)
@@ -44,7 +44,7 @@ function App() {
     setSetScoreVisible(false)
     setCurrentQuestion(0)
     setCorrectAnswerCount(0)
-    setTimer(60)
+    setTimer(15)
   }
 
   return (
