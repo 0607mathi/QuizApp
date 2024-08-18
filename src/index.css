@@ -38,6 +38,11 @@ body, html {
   box-shadow: 0px 0px 10px 1px rgb(59, 59, 59);
 }
 
+.tittle{
+  color: #3498db;
+  font-weight: 600;
+}
+
 .Quiz{
   padding: 10px;
   padding-bottom: 0px;
@@ -60,7 +65,7 @@ body, html {
 
 .Quiz .options button{
   padding: 10px;
-  width: 100px;
+  width: 120px;
   border-radius: 6px;
   border: none;
   background-color: #3498db;

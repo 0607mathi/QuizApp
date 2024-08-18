@@ -1,20 +1,62 @@
 [
     {
-        "id":1,
-        "Question":"Which one is Small number in this options ?",
-        "options":["one","two","three","four"],
-        "answer":"one"
+        "id": 1,
+        "Question": "Which one is the smallest planet in our solar system?",
+        "options": ["Earth", "Mars", "Mercury", "Venus"],
+        "answer": "Mercury"
     },
     {
-        "id":2,
-        "Question":"Which one is Largest number in this options ?",
-        "options":["1","2","3","4"],
-        "answer":"4"
+        "id": 2,
+        "Question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "Paris"
     },
     {
-        "id":3,
-        "Question":"Which one is Middel number in this options ?",
-        "options":["01","02","03","04"],
-        "answer":"03"
+        "id": 3,
+        "Question": "Which animal is known as the King of the Jungle?",
+        "options": ["Elephant", "Lion", "Tiger", "Leopard"],
+        "answer": "Lion"
+    },
+    {
+        "id": 4,
+        "Question": "Which is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "id": 5,
+        "Question": "Which one of these is a primary color?",
+        "options": ["Green", "Red", "Orange", "Purple"],
+        "answer": "Red"
+    },
+    {
+        "id": 6,
+        "Question": "Which planet is known as the Red Planet?",
+        "options": ["Jupiter", "Mars", "Saturn", "Venus"],
+        "answer": "Mars"
+    },
+    {
+        "id": 7,
+        "Question": "Which country is the largest by area?",
+        "options": ["China", "USA", "Russia", "Canada"],
+        "answer": "Russia"
+    },
+    {
+        "id": 8,
+        "Question": "What is the boiling point of water at sea level?",
+        "options": ["50°C", "75°C", "100°C", "125°C"],
+        "answer": "100°C"
+    },
+    {
+        "id": 9,
+        "Question": "Which one is the largest mammal?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        "answer": "Blue Whale"
+    },
+    {
+        "id": 10,
+        "Question": "Which is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "answer": "Nile"
     }
 ]
